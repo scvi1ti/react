@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import { Btnmain } from './button.tsx';
+import { Username } from './username.tsx';
+import { Burger } from './burger.tsx';
+import { SignIn } from './sign.tsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='Wrapper'>
+    
+      <Btnmain /> 
+      <Username username='Artem Malkin' />
+      <SignIn  text='Sign In'/>
+      <Burger />
+      
+    
+  
     </div>
   );
 }
 
 export default App;
+
+
