@@ -1,0 +1,18 @@
+# Папка с зависимостями
+node_modules/
+
+# Сборки
+build/
+dist/
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Системные файлы
+.DS_Store
+
+# Локальные настройки IDE
+.vscode/
+.idea/

@@ -1,0 +1,44 @@
+.button1{
+background-color: rgb(5, 48, 139);
+color:white;
+padding:20px;
+border: none;
+}
+
+.button2{
+  background-color: rgb(198, 198, 198);
+  color:rgb(0, 0, 0);
+  padding:20px;
+  border: none;
+  }
+
+  .button3{
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 0, 0);
+    padding:20px;
+    border: none;
+    }
+
+
+    .button1:hover{
+      background-color: rgb(68, 108, 192);
+      color:white;
+      padding:20px;
+      border: none;
+      }
+      
+      .button2:hover{
+        background-color: rgb(154, 144, 144);
+        color:rgb(0, 0, 0);
+        padding:20px;
+        border: none;
+        }
+      
+        .button3:hover{
+          background-color: rgb(255, 255, 255);
+          color:rgb(255, 0, 0);
+          padding:20px;
+          border: 1px solid grey;
+          }
+      
+      
